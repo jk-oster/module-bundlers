@@ -1,0 +1,17 @@
+{
+  "name": "grunt-example",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-terser": "^2.0.0",
+    "grunt-uncss": "^0.10.1"
+  }
+}
