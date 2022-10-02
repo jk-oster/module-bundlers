@@ -1,0 +1,13 @@
+
+@mixin border-radius($radius){
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+@mixin center-auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
