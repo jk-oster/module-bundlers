@@ -1,0 +1,18 @@
+version: '3'
+services:
+  webpack:
+    image: node:16
+    volumes:
+      - ./:/frontend
+    working_dir: /frontend
+    command: bash -c "npm -v && npm install && npm run dev"
+    ports:
+      - "3000:3000"
+
+  express:
+    build: ./backend
+    # volumes:
+    #  - ./:/backend
+    working_dir: /backend
+    ports:
+      - "8080:8080"
